@@ -350,3 +350,30 @@ textarea{
     font-size: 15px;
     font-family: "Raleway";
 }
+
+/* ---------------------------------------- */
+
+.footer{
+    background-color: #383b43;
+    padding: 100px 0;
+
+}
+
+.copyright li{
+    color: #858585;
+    display: inline;
+    list-style-type: none;
+    font-size: 15px;
+    margin: 0 5px;
+    float: left;
+
+}
+
+.copyright a{
+    color: #858585;
+    transition: color 0.2s ease-in;
+}
+
+.copyright a:hover{
+    color: #fffddd;
+}
