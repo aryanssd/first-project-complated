@@ -1,5 +1,5 @@
 *{
-    margin: 0!important;
+    margin: 0;
     font-family: "Raleway";
 }
 
@@ -78,15 +78,17 @@ header .banner h1{
 }
 
 header .banner p{
+    margin-top: 40px;
     padding-bottom: 30px;
     font-size: 18px;
 }
 
 .blue-btn{
+    margin-top: 60px;
     border: 0;
     padding: 13px 35px;
     border-radius: 25px;
-    background-color: rgb(0, 204, 255);
+    background-color: #3cadd4;
     transition: background-color 0.3s;
     cursor: pointer;
     
@@ -194,4 +196,157 @@ header .banner button a:hover{
         margin: 10px 0!important;
     }
     
+}
+/* ------------------------------------ */
+
+.about{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-header h2{
+    font-size: 42px;
+    margin-bottom: 12px;
+    color: #474747;
+}
+
+.about-header p{
+    font-size: 22px;
+    color: #858585;
+}
+
+.about-content{
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    margin: 60px auto!important;
+    width: 88%;
+}
+
+.about-content >*{
+    float: left;
+}
+
+.about-content::before,
+.about-content::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.profile{
+    padding: 60px 0;
+    width: 25%;
+}
+.profile img{
+    border-radius: 50%;
+    float: left;
+}
+
+.profile h4{
+    margin-top: 30px!important;
+    margin-right: 136px!important;
+    color: #474747;
+}
+
+.profile p{
+    color: #858585;
+    margin-right: 136px!important;
+    line-height: 25px;
+}
+
+.about-footer p{
+color: #858585;
+font-size: 17px;
+line-height: 30px;
+width: 70%;
+text-align: center;
+border: 0;
+margin: 0 auto;
+}
+.about-footer button{
+    margin: 60px 0 30px 0;
+}
+
+.about-footer button a{
+    color: #fff;
+    font-size: 20px;
+    transition: color .3s;
+}
+
+.about-footer button a:hover{
+    color: #444;
+}
+
+.about-footer button:hover{
+    background-color: #999999;
+}
+/* --------------------------------- */
+
+.contact{
+    background-color: #3cadd4;
+    color: #fff;
+    padding: 100px;
+}
+
+.contact-header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact-header h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-header p{
+    font-size: 20px;
+}
+
+.btn-dark{
+    color: #fff;
+    background-color: #444;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn-dark:hover{
+    color: #444;
+    background-color: #fff;
+}
+
+.contact-content{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"]{
+    background-color: #fff;
+    color: #444;
+    border: 0;
+    border-radius: 4px;
+    padding: 15px 12px;
+    width: 25%;
+}
+
+textarea{
+    background-color: #fff;
+    color: #444;
+    height: 200px;
+    border: 0;   
+    border-radius: 4px;
+    padding: 15px 25px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+::placeholder{
+    color: #858585!important;
+    font-size: 15px;
+    font-family: "Raleway";
 }
